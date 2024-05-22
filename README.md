@@ -30,7 +30,9 @@ docker --target production build -t name/image:tag .
 
 - For development
 
+```bash
 docker --target development build -t name/image:tag .
+```
 
 ## Authors
 
