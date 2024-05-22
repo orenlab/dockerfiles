@@ -3,7 +3,7 @@
 # https://github.com/orenlab/dockerfiles
 #
 # To run the application in a specific mode:
-# docker --target prodaction build -t name/image:tag .
+# docker --target production build -t name/image:tag .
 # docker --target development build -t name/image:tag .
 #############################################################
 
@@ -55,7 +55,7 @@ RUN pip install --no-cache --target="/venv/lib/python$PYTHON_VERSION/site-packag
 RUN python -m pip uninstall pip setuptools python3-wheel python3-dev musl-dev -y
 
 # Second stage - based on the base stage.
-FROM base AS prodaction
+FROM base AS production
 
 # Python version
 ARG PYTHON_VERSION=3.12
