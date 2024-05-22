@@ -14,7 +14,7 @@ Simple, clear, and working Dockerfile templates for Python applications based on
 Simple and intuitive installation and setup:
 
 ```bash
-  https://github.com/orenlab/dockerfiles.git
+git clone https://github.com/orenlab/dockerfiles.git
 ```
 
 Then open the Alpine.Dockerfile in your preferred editor and make the necessary changes to the paths and dependencies.
