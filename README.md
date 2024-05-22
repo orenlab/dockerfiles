@@ -17,18 +17,18 @@ Simple and intuitive installation and setup:
 git clone https://github.com/orenlab/dockerfiles.git
 ```
 
-Then open the Alpine.Dockerfile in your preferred editor and make the necessary changes to the paths and dependencies.
+Then open the Alpine.Dockerfile in your preferred editor and make the necessary changes to the `paths` and `dependencies`.
 
 ## Usage/Examples
 
 Dockerfile is configured to use two targets:
-- For a productive system
+- For a `productive` system
 
 ```bash
 docker --target production build -t name/image:tag .
 ```
 
-- For development
+- For `development`
 
 ```bash
 docker --target development build -t name/image:tag .
