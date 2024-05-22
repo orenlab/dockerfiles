@@ -17,7 +17,7 @@ Simple and intuitive installation and setup:
 git clone https://github.com/orenlab/dockerfiles.git
 ```
 
-Then open the Alpine.Dockerfile in your preferred editor and make the necessary changes to the `paths` and `dependencies`.
+Then open the `Dockerfile` in your preferred editor and make the necessary changes to the `paths` and `dependencies`.
 
 ## Usage/Examples
 
