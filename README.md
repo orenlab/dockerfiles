@@ -22,13 +22,13 @@ Then open the `Dockerfile` in your preferred editor and make the necessary chang
 ## Usage/Examples
 
 Dockerfile is configured to use two targets:
-- For a `productive` system
+- For a `production` system
 
 ```bash
 docker --target production build -t name/image:tag .
 ```
 
-- For `development`
+- For `development` system
 
 ```bash
 docker --target development build -t name/image:tag .
