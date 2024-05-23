@@ -48,7 +48,8 @@ RUN apk --no-cache add gcc python3-dev musl-dev linux-headers
 
 # Install dependencies to the venv path
 RUN python$PYTHON_VERSION -m venv --without-pip venv
-RUN pip install --no-cache --target="/venv/lib/python$PYTHON_VERSION/site-packages" -r requirements.txt
+RUN pip install --no-cache-dir --target="/venv/lib/python${PYTHON_VERSION}/site-packages" \
+    -r requirements.txt
 
 # As a general rule, it is best to remove anything that is not essential for the operation of an application. 
 # This reduces the surface area of a potential attack.
