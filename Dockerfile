@@ -8,8 +8,8 @@
 #############################################################
 
 # Set Alpine tag version for all stage
-ARG IMAGE_VERSION_FIRST=3.12.3-alpine3.19
-ARG IMAGE_VERSION_SECOND=3.19.1
+ARG IMAGE_VERSION_FIRST=alpine3.20
+ARG IMAGE_VERSION_SECOND=3.20
 
 # Zero stage - setup base image
 FROM alpine:$IMAGE_VERSION_SECOND AS base
